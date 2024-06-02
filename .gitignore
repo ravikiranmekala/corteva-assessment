@@ -6,6 +6,8 @@ __pycache__/
 .idea/
 migrations/
 
+commands.txt
+
 # C extensions
 *.so
 
