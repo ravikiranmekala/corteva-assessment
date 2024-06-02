@@ -1,5 +1,3 @@
-# your_app/management/commands/calculate_weather_statistics.py
-
 import os
 from django.core.management.base import BaseCommand
 from django.db.models import Avg, Sum

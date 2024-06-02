@@ -1,5 +1,3 @@
-# your_app/management/commands/upload_weather_data.py
-
 import os
 import datetime
 import time
@@ -15,7 +13,7 @@ class Command(BaseCommand):
         # Hardcoded directory relative to the location of this script
         base_dir = os.path.dirname(__file__)
         directory = os.path.join(base_dir,
-                                 'wx_data')  # Assuming the files are in a folder named 'data' within the same directory
+                                 'wx_data')  # Assuming the files are in a folder named 'wx_data' within the same directory
 
         if not os.path.exists(directory):
             raise CommandError(f"The directory {directory} does not exist")

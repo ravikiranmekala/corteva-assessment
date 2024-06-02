@@ -1,5 +1,3 @@
-# your_app/views.py
-
 from rest_framework import viewsets
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.filters import OrderingFilter
